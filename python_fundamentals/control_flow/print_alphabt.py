@@ -1,3 +1,2 @@
 #!/usr/bin/env python3
-
-print("abcdfghijklmnoprstuvwxyz")
+print("".join("{}".format(chr(i)) for i in range(97, 123)), end="")
