@@ -1,8 +1,7 @@
-#!/usr/bin/ python3
+#!/usr/bin/env python3
+"""Module that contains the uppercase function."""
+
+
 def uppercase(str):
-    for c in str:
-        if 97 <= ord(c) <= 122:
-            print(chr(ord(c) - 32), end="")
-        else:
-            print(c, end="")
-    print()
+    """Prints a string in uppercase."""
+    print("".join(chr(ord(c) - 32) if 97 <= ord(c) <= 122 else c for c in str))
