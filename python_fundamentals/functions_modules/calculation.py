@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module that performs basic calculations using calculator_1."""
+"""Module that performs basic calculations."""
 from calculator_1 import add, sub, mul, div
 
 
