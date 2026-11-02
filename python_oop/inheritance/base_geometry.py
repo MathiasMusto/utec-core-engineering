@@ -1,4 +1,3 @@
-#!/usr/init/env python3
 #!/usr/bin/env python3
 """Módulo que define la clase BaseGeometry."""
 
