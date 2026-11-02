@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Módulo que define una clase Square con un método para imprimir su gráfico."""
+"""Módulo Square que define un cuadrado."""
 
 
 class Square:
